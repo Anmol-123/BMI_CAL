@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="./index.js"></script>
+    <script src="./index.js"></script>
+    <title>BMI</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body class="text-center mt-5">
+    <div id="caption" class="bg-info mx-auto d-block p-3 text-white">
+      <h1 class="text-center text-white">BMI CALCULATOR</h1>
+    </div>
+    <div id="info" class="mt-5 text-white container-fluid bg-secondary">
+      Any BMI value between 19 and 25 is considered to be of healthy person!
+    </div>
+    <div class="container text-white mt-3">
+      <div class="container p-2 mt-5">
+        Weight (in Kg):&nbsp;&nbsp;&nbsp;
+
+        <input type="number" id="weight" />
+        <br />
+        <br />
+        Height (in ft):<input type="number" id="height" />
+      </div>
+      <button class="btn btn-warning btn-small m-3" onclick="act()">
+        Your BMI
+      </button>
+      <button class="btn btn-danger btn-small m-3" onclick="location.reload()">
+        Reset
+      </button>
+    </div>
+
+    <div id="digit" class="mt-5 text-white container-fluid bg-success"></div>
+    <hr />
+  </body>
+</html>
