@@ -7,7 +7,7 @@ const act = () => {
     document.querySelector("#digit").innerHTML = `Your BMI is : ${Math.round((wt * (3.28084 ** 2)) / (ht * ht))}`;
   }
   else{
-    alert('Please Enter the Fields!');
+    alert('Kindly Enter the Fields!');
   }
 };
 
